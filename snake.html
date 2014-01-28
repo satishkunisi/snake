@@ -1,0 +1,57 @@
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
+	<style>
+	.tile {
+		float: left;
+		width:20px;
+		height:20px;
+		border: 1px dotted #000;
+   	background-color: #000;
+	}
+	
+	.apple {
+		float: left;
+		width:20px;
+		height:20px;
+		border: 1px dotted #000;
+		background-color: #cc0000;
+	}
+	
+	.snake {
+		float: left;
+		width:20px;
+		height:20px;
+		border: 1px dotted #000;
+		background-color: #1CED00;
+	}
+	.row {
+		clear:left;
+	}
+	
+	.game-over {
+		border: 1px dotted #ccc;
+		z-index: 5;
+		top: 200px;
+		left: 0px;
+		display: block;
+		clear: none;
+	}
+	
+	h1, h2, h3 {
+		font-weight: 900;
+		font-family: 'Codystar', cursive;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+		<h1>SNAKE</h1>
+	</div>
+  <div id="board">
+    <script src="snake.js"></script>
+    <script src="snake_ui.js"></script>
+  </div>
+</body>
